@@ -1,0 +1,132 @@
+.todo{
+    width: 540px;
+    margin: 74px auto 0;
+}
+.todo-input{
+    /* Group 3 */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.todo-input input{
+    width: 86%;
+    /* input */
+    outline: none;
+    height: 40px;
+    background: transparent;
+    border-radius: 8px;
+    padding-left: 12px;
+    border: 1px solid rgb(158, 120, 207);
+    font-size: 16px;
+    color:white;
+}
+.todo-input button{
+    width: 10%;
+    border-radius: 10px;
+    background: rgb(158, 120, 207);
+    /* Rectangle 5 */
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.task{
+    margin-top: 59px;
+    /* section.todo */
+    width: 100%;
+}
+.task .task--title{
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.task .task--card{
+    padding: 21px;
+    margin-top: 17px;
+    border-radius: 10px;
+    background: rgb(21, 16, 28);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.task .task--text{
+    color: rgb(158, 120, 207);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.task .task--actions{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.task .task--actions img{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.task .task--actions img:hover{
+    transform: scale(1.1);
+}
+.task .task--actions #checked{
+    display: none;
+}
+
+.done{
+    margin-top: 59px;
+    /* section.todo */
+    width: 100%;
+}
+.done .done--title{
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.done .done--card{
+    padding: 21px;
+    margin-top: 17px;
+    border-radius: 10px;
+    background: rgb(21, 16, 28);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.done .done--text{
+    color: rgb(120, 207, 176);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+.done .done--actions{}
+.fa-check{
+    color:rgb(62, 22, 113);
+    font-size: 24px;
+    cursor: pointer;
+}
+.fa-rotate-left{
+    color:rgb(62, 22, 113);
+    font-size: 24px;
+    cursor: pointer;
+}
+.fa-check:hover{
+    color:rgb(46, 15, 87);
+}
+.fa-rotate-left:hover{
+    color:rgb(46, 15, 87);
+}
