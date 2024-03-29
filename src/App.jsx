@@ -28,8 +28,8 @@ function App() {
   useEffect(() => {
     let a = 0;
     let b = 0;
-    for (let i = 0; i < localTodos.length; i++) {
-      if (localTodos[i].status) {
+    for (let i = 0; i < todos.length; i++) {
+      if (todos[i].status) {
         a++;
       } else {
         b++
@@ -37,7 +37,7 @@ function App() {
     }
     setCounter1(a);
     setCounter2(b);
-  }, [])
+  }, [todos])
 
   function handleClick() {
     const isValid = validate(name);
