@@ -1,6 +1,7 @@
 .todo{
-    width: 540px;
+    max-width: 540px;
     margin: 74px auto 0;
+    padding: 8px;
 }
 .todo-input{
     /* Group 3 */
@@ -8,9 +9,10 @@
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .todo-input input{
-    width: 86%;
+    width: 83%;
     /* input */
     outline: none;
     height: 40px;
@@ -22,12 +24,11 @@
     color:white;
 }
 .todo-input button{
-    width: 10%;
+    width: 15%;
     border-radius: 10px;
     background: rgb(158, 120, 207);
     /* Rectangle 5 */
     height: 40px;
-    margin-left: 10px;
     cursor: pointer;
 }
 
